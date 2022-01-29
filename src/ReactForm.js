@@ -1,7 +1,6 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useState, useRef} from 'react';
 import { timeout } from 'workbox-core/_private';
 import axios from 'axios';
-import DisplayData from './DisplayData';
 import './App.css';
 
 
@@ -28,7 +27,7 @@ const handleReset = () => {
     emailRef.current.value='';
     passwordRef.current.value='';
 };
-// jayashree.kanthavel@shopf.co & ramprasad@shopf.co
+
 
 const handleSearch = (e) => {
   console.log(searchText.current.value);
