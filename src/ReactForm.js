@@ -6,9 +6,7 @@ import './App.css';
 
 function ReactForm() {
 
-const [searchContent, setSearchContent] = useState('');
  const [data, setData] = useState(null);
-
 
 const nameRef = useRef();
 const searchText = useRef();
